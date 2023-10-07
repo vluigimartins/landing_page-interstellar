@@ -1,12 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interstellar Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Oswald:wght@400;700&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-    <h1>Olá</h1>
+    <header id="home">
+        <div class="hero">
+            <div class="navbar">
+                <div class="hero-content">
+                    <button class="watch-button">&#9658; &nbsp; Play Now</button>
+                </div>
+                <div class="button-container">
+                    <button>2h 35m</button>
+                    <button>Science fiction</button>
+                    <button>2014</button>
+                </div>
+                <div >
+                    <h1 class="title">
+                        INTERSTELLAR
+                    </h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#synopsis">SYNOPSIS</a></li>
+                        <li><a href="#trailer">TRAILER</a></li>
+                        <li><a href="#cast">CAST</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="synopsis" class="synopsis-section" data-aos="zoom-out">
+        <div class="container">
+            <div class="synopsis-content">
+                <h2>Synopsis</h2>
+                <p>Interstellar is a science fiction film directed by Christopher Nolan, released in 2014. The film is set
+                    in the near future, where Earth is facing a global environmental crisis.</p>
+                <p>The story follows a group of astronauts on an interstellar mission to find a new home for humanity, as
+                    the planet Earth is no longer habitable. With a combination of scientific theories and stunning visual
+                    effects, the film explores themes of love, time, and survival.</p>
+            </div>
+            <div class="synopsis-image">
+                <img src="dist/images/bnegro.jpg" alt="Interstellar">
+            </div>
+        </div>
+    </section>
+    <section id="trailer" class="trailer-section" data-aos="zoom-out">
+        <div class="container_trailer">
+            <div class="itens_trailer">
+                <h2>Trailer</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lm8p5rlrSkY?si=M0Hk1juV_jm75FAN"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="cast" class="cast-section" data-aos="zoom-out-down">
+        <div class="container">
+            <h2>Main Cast</h2>
+            <div class="cast-list">
+                <div class="actor">
+                    <img src="dist/images/actor 1.webp" alt="MATTHEW MCCONAUGHEY">
+                    <p>MATTHEW MCCONAUGHEY</p>
+                </div>
+                <div class="actor">
+                    <img src="dist/images/actress 1.webp" alt="ANNE HATHAWAY">
+                    <p>ANNE HATHAWAY</p>
+                </div>
+                <div class="actor">
+                    <img src="dist/images/actress 2.webp" alt="JESSICA CHASTAIN">
+                    <p>JESSICA CHASTAIN</p>
+                </div>
+                <div class="actor">
+                    <img src="dist/images/actor 2.webp" alt="MICHAEL CAINE">
+                    <p>MICHAEL CAINE</p>
+                </div>
+                <div class="actor">
+                    <img src="dist/images/actress 3.webp" alt="MACKENZIE FOY">
+                    <p>MACKENZIE FOY</p>
+                </div>
+                <div class="actor">
+                    <img src="dist/images/actor 3.webp" alt="JOHN LITHGOW">
+                    <p>JOHN LITHGOW<p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2023 Interstellar. All rights reserved.</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>

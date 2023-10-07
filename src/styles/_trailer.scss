@@ -1,0 +1,27 @@
+@use 'variaveis';
+
+.trailer-section {
+    padding: 100px;
+}
+
+.container_trailer {
+    max-width: 1200px;
+    background-image: linear-gradient(#2b2b2e, black);
+    margin: 150px auto;
+    padding-bottom: 120px;
+    padding-top: 25px;
+} 
+
+.itens_trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trailer-section h2 {
+    font-size: 28px;
+    color: variaveis.$corTextoPrimaria;
+    margin-bottom: 50px;
+}
+

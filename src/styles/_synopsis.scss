@@ -1,0 +1,51 @@
+@use 'variaveis';
+
+.synopsis-section {
+    padding: 150px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.synopsis-content {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.synopsis-image {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+}
+
+.synopsis-content h2 {
+    font-size: 28px;
+    color: variaveis.$corTextoPrimaria;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.synopsis-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: variaveis.$corTextoSecundaria;
+}
+
+.synopsis-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 85px;
+    border: 1px solid variaveis.$corTextoSecundaria;
+}

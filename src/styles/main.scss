@@ -13,32 +13,6 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    background-image: linear-gradient(black, variaveis.$corDeFundoSecundaria);
-}
-
-@mixin text($fontSize: 18px) {
-    font-size: $fontSize;
-    line-height: $fontSize + 10px;
-    color: variaveis.$corTextoPrimaria;
-}
-
-@mixin title($fontSize: 55px) {
-    @include text($fontSize);
-    color: variaveis.$corTextoHero;
-}
-
-.text {
-    @include text;
-
-    @media (max-width: 768px) {
-        @include text(14px);
-    }
-}
-
-.title {
-    @include title;
-
-    @media (max-width: 768px) {
-        @include title(25px);
-    }
+    background-image: linear-gradient(black, variaveis.$corDeFundo);
+    overflow-x: hidden;
 }
